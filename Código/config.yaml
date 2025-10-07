@@ -1,0 +1,19 @@
+path: "C:/.../0_ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3" # A completar con tu ruta
+path_signals : "C:/.../_prepro/cleaned_scipy/npy" # A completar con tu ruta
+metadata_file: "ptbxl_database_.xlsx" 
+sampling_rate: 100 # 100 o 500
+batch_train: 64
+batch_test: 128
+epochs: 50
+lr: 0.001
+weight_decay: 1e-5
+dropout: 0.3
+patience: 5
+threshold: 0.5
+seed: 42
+mains_hz: 50
+model:
+  name: "resnet1d" # "sincnet" | "cnn_baseline" | "resnet1d" | "inception1d"
+  params: {}
+labels:
+  target_level: "superclass"
