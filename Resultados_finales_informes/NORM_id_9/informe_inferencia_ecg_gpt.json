@@ -1,0 +1,47 @@
+{
+  "signal_name": "records100/00000/00009_lr",
+  "fs": 100.0,
+  "pred_idx": 3,
+  "pred_name": "NORM",
+  "probs": {
+    "CD": 0.05771569535136223,
+    "HYP": 0.07385396957397461,
+    "MI": 0.075485460460186,
+    "NORM": 0.691996157169342,
+    "STTC": 0.10094870626926422
+  },
+  "rank": [
+    [
+      "NORM",
+      0.691996157169342
+    ],
+    [
+      "STTC",
+      0.10094870626926422
+    ],
+    [
+      "MI",
+      0.075485460460186
+    ],
+    [
+      "HYP",
+      0.07385396957397461
+    ],
+    [
+      "CD",
+      0.05771569535136223
+    ]
+  ],
+  "checkpoint": "C:/Users/rmart/Desktop/0_ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/zzz_results_inception1d/inception1d_best_foldfixed.pt",
+  "model_name": "inception1d",
+  "patient": {
+    "patient_id": 18792,
+    "sex": "Masculino",
+    "age": 55,
+    "age_group": "Mediana edad (40–64)",
+    "height": "No disponible",
+    "weight": "70 kg",
+    "bmi": null,
+    "bmi_category": null
+  }
+}
