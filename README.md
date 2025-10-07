@@ -8,4 +8,4 @@ El modelo CNN (Inception1D) clasifica señales ECG en cinco superclases diagnós
 
 El desarrollo se ha realizado íntegramente en **Python**, empleando **entorno local** y herramientas **open source**, garantizando privacidad y reproducibilidad.
 
-Las señales se han obtenido de PTBL-XL ECG Dataset: https://physionet.org/content/ptb-xl/1.0.3/; en concreto, records100 (señales ECG con frecuencia de muestreo igual a 100 Hz).
+Las señales se han obtenido de PTB-XL ECG Dataset: https://physionet.org/content/ptb-xl/1.0.3/; en concreto, records100 (señales ECG con frecuencia de muestreo igual a 100 Hz).
